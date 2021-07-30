@@ -28,7 +28,15 @@ Repositorio creado para el examen de Análisis de Datos
    
   ![image](https://user-images.githubusercontent.com/58191417/127721086-fa8a2037-8951-476b-bd42-9c7956b5e4f4.png)
   
-  **-Comprobamos en la interfaz de Fauxton la creación de una BD por cada ciudad-**
+  **-> Comprobamos en la interfaz de Fauxton la creación de una BD por cada ciudad <-**
   ![image](https://user-images.githubusercontent.com/58191417/127721610-b8730920-71a2-4a7d-b415-2258edda00b4.png)
 
   ###### a) Track
+  - Las líneas que cambian para consultar por tendencias son las siguientes:
+  
+    -  **db = server.create('juegosolimpicostrack')**
+    -  **twitterStream.filter(track=['juegos olimpicos','olimpiadas'])**
+    
+       Esta última es la que indica las palabras para basar la búsqueda
+    ![image](https://user-images.githubusercontent.com/58191417/127721830-6c3a2c4f-962b-4dbc-847a-3b82b64496f0.png)
+
