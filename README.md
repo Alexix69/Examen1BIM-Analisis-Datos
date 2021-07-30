@@ -28,3 +28,7 @@ Repositorio creado para el examen de Análisis de Datos
    
   ![image](https://user-images.githubusercontent.com/58191417/127721086-fa8a2037-8951-476b-bd42-9c7956b5e4f4.png)
   
+  **-Comprobamos en la interfaz de Fauxton la creación de una BD por cada ciudad-**
+  ![image](https://user-images.githubusercontent.com/58191417/127721610-b8730920-71a2-4a7d-b415-2258edda00b4.png)
+
+  ###### a) Track
