@@ -74,7 +74,7 @@ Repositorio creado para el examen de Análisis de Datos
 
   ![image](https://user-images.githubusercontent.com/58191417/127723863-d5f270fc-1040-45d8-8a86-52a69f89ae2d.png)
 
-  # Mismo proceso para el otro usuario:
+  ###### Mismo proceso para el otro usuario:
   
   ![image](https://user-images.githubusercontent.com/58191417/127723874-9c72810a-5026-4941-a83d-7fe2691922dd.png)
 
