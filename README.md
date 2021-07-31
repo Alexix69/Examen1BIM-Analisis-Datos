@@ -97,7 +97,7 @@ Repositorio creado para el examen de Análisis de Datos
   ![image](https://user-images.githubusercontent.com/58191417/127724379-d4966180-5ce1-437a-904d-dda19e704cb8.png)
 
   - Al hacer esto se generará un JSON
-  - 
+  
   ![image](https://user-images.githubusercontent.com/58191417/127724395-53f053c6-db85-4860-807f-9ab9a4f8a060.png)
 
   - En MongoDB Compass creamos la BD tiktok y la colección para la primera BD (dannapaola)
@@ -130,5 +130,33 @@ Repositorio creado para el examen de Análisis de Datos
 
   ![image](https://user-images.githubusercontent.com/58191417/127724537-549679ac-33a2-46d8-9a8f-9367f557ff18.png)
 
-
+## 3) Web Scrapping
+   
+  Se importan las librerías necesarias, en este caso Pymongo:
   
+  ![image](https://user-images.githubusercontent.com/58191417/127725140-8ce5a1e3-997a-4917-8837-d722d09c8338.png)
+   
+   Se definen las funciones que serviran para la busqueda:
+   
+   ![image](https://user-images.githubusercontent.com/58191417/127725163-3f3e9609-4102-40b0-98a0-7fb00c0b7d29.png)
+
+  Con la ayuda de BeatifulSoup se filtra y además se crean los contenedores:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127725191-772b058c-1858-4113-b0ec-9710894fba95.png)
+  
+  Finalmente se limpia el código HTML por ultima vez y se conecta con el cliente de MongoDB para guardar los datos:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127725216-284558fc-c9b0-4fcc-b046-3e7268d2b5c8.png)
+
+  Se crea la BD en MongoDB Compass correctamente:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127725076-c842b885-0e4f-4373-9cef-424ad5cb2d52.png)
+
+  - Se ha creado la colección:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127725102-e4bddc68-7d1d-47cb-8fc5-c43393231bd4.png)
+
+  - Se presenta cada objeto nuevo de la colección:
+
+  ![image](https://user-images.githubusercontent.com/58191417/127725116-0f347ea4-9799-4859-969f-64b85e6e5fb4.png)
+
