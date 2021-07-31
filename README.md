@@ -1,8 +1,8 @@
 # Examen1BIM-Analisis-Datos
 Repositorio creado para el examen de Análisis de Datos
 
-## 1) Twitter
-  ###### a) Locations
+## a) Twitter
+  ###### 1) Locations
   - Importamos las librerías necesarias, en este caso Tweepy
   
   ![image](https://user-images.githubusercontent.com/58191417/127720919-659b02ab-6aa7-4a75-8ff1-08ae1cf24f10.png)
@@ -31,7 +31,7 @@ Repositorio creado para el examen de Análisis de Datos
   **-> Comprobamos en la interfaz de Fauxton la creación de una BD por cada ciudad <-**
   ![image](https://user-images.githubusercontent.com/58191417/127721610-b8730920-71a2-4a7d-b415-2258edda00b4.png)
 
-  ###### a) Track
+  ###### 2) Track
   - Las líneas que cambian para consultar por tendencias son las siguientes:
   
     -  **db = server.create('juegosolimpicostrack')**
@@ -40,3 +40,54 @@ Repositorio creado para el examen de Análisis de Datos
        Esta última es la que indica las palabras para basar la búsqueda
     ![image](https://user-images.githubusercontent.com/58191417/127721830-6c3a2c4f-962b-4dbc-847a-3b82b64496f0.png)
 
+## b) TikTok
+
+  Para tiktok-scraper es necesario ejecutar los comandos:
+  
+   - Iniciará el scraper mediante npm
+   
+   **npm i -g tiktok-scraper**
+  
+  - Hecho esto basta ejecutar el comando con los parametros siguientes para que nos genere un CSV:
+
+  Usuario 1: **tiktok-scraper user stamkkk -t csv**
+  
+   ![image](https://user-images.githubusercontent.com/58191417/127723791-fa78aeb3-1623-4f02-a9df-1d7ad53d14b8.png)
+
+  Usuario 2: **tiktok-scraper user dannapaola -t csv**
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127723799-bed0bef6-23c3-4d78-9bde-e6cb5fdfb65c.png)
+  
+  Para importar el CSV a MySQL verificamos los pasos:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127723817-c9370ae0-b59f-46c4-a84b-14c1ec0d7b40.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723822-67755cdf-44e6-4ec4-9563-9b238c4d49d1.png) 
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127723828-3877d95e-6dd4-44da-8489-9c66c18b9a54.png)
+
+  Comprobamos que la BD se haya insertar de manera correcta (por la extensión de la misma, solo se adjuntan capturas que comprueben el hecho)
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127723855-b0076644-5b7b-498a-9cc9-09e419f06941.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723859-bfe04f9f-8cb8-4462-baf6-60ee16ad3534.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723863-d5f270fc-1040-45d8-8a86-52a69f89ae2d.png)
+
+  # Mismo proceso para el otro usuario:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127723874-9c72810a-5026-4941-a83d-7fe2691922dd.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723877-8c22e9eb-1b54-4c7c-8093-06ecd0dd6119.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723881-8ab70164-2585-4e90-9e90-a266808dbed5.png)
+
+  Comprobamos:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127723892-a2f71e6d-f919-4f84-b48a-08c3e4077864.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723897-869d0652-5cdc-493e-a939-bed49523b494.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127723905-0a854b54-f6a1-4c41-b58a-48383d509835.png)
+
+  
