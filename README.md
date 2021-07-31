@@ -1,7 +1,7 @@
 # Examen1BIM-Analisis-Datos
 Repositorio creado para el examen de Análisis de Datos
 
-## a) Twitter
+## 1 y 2) Twitter
   ###### 1) Locations
   - Importamos las librerías necesarias, en este caso Tweepy
   
@@ -40,7 +40,7 @@ Repositorio creado para el examen de Análisis de Datos
        Esta última es la que indica las palabras para basar la búsqueda
     ![image](https://user-images.githubusercontent.com/58191417/127721830-6c3a2c4f-962b-4dbc-847a-3b82b64496f0.png)
 
-## b) TikTok
+## 5) TikTok
 
   Para tiktok-scraper es necesario ejecutar los comandos:
   
@@ -89,5 +89,46 @@ Repositorio creado para el examen de Análisis de Datos
   ![image](https://user-images.githubusercontent.com/58191417/127723897-869d0652-5cdc-493e-a939-bed49523b494.png)
 
   ![image](https://user-images.githubusercontent.com/58191417/127723905-0a854b54-f6a1-4c41-b58a-48383d509835.png)
+
+## 6) MySQL => MongoDB
+
+  Para migrar de MySQL a MongoDB es ncesario exportar las BD de MySQL
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127724379-d4966180-5ce1-437a-904d-dda19e704cb8.png)
+
+  - Al hacer esto se generará un JSON
+  - 
+  ![image](https://user-images.githubusercontent.com/58191417/127724395-53f053c6-db85-4860-807f-9ab9a4f8a060.png)
+
+  - En MongoDB Compass creamos la BD tiktok y la colección para la primera BD (dannapaola)
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127724447-7b41c8c3-683f-4312-bf9f-0adca0355206.png)
+
+  - Importamos el archivo JSON generados anteriormente:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127724476-c6c35c0b-e8a6-4345-8e10-b879cdffaf00.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724479-75760779-a50c-4c79-b216-dbe59e17872e.png)
+
+  - Comprobamos que la importación se realizó con exito:
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127724501-9183a388-4528-42bc-9a77-946460cacd4e.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724505-5eefb428-8937-4d2e-a503-74cb53f4fde7.png)
+
+  **Repetimos los mismos pasos para la otra BD (stamkkk):**
+  
+  ![image](https://user-images.githubusercontent.com/58191417/127724559-40b38405-cc5c-4385-af96-ccaef9e4805b.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724565-4f5d5125-a502-4c7e-81f6-571b943db681.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724528-0c9d8136-6a52-46e2-8f9c-87040bfd6136.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724535-e7adc039-0f7c-47b8-be0d-76f6dea6507c.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724552-c72763ab-942e-43d0-ac34-905d6c191e81.png)
+
+  ![image](https://user-images.githubusercontent.com/58191417/127724537-549679ac-33a2-46d8-9a8f-9367f557ff18.png)
+
 
   
